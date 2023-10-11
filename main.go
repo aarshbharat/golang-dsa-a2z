@@ -11,6 +11,11 @@ func main() {
 	a2zsheetaarsh.FindCharCase()
 
 	// Call for DataTypes method
-	output, err := a2zsheetaarsh.DataTypes("Integer")
-	fmt.Println("Output of function a2zsheetaarsh.DataTypes : ", output, "error : ", err)
+	output1, err := a2zsheetaarsh.DataTypes("Integer")
+	fmt.Println("Output of function a2zsheetaarsh.DataTypes :", output1, "error : ", err)
+
+	// Call for IntegerComparision method
+	output2, err := a2zsheetaarsh.IntegerComparision(int(5), int(4))
+	fmt.Println("Output of function a2zsheetaarsh.IntegerComparision :", output2, "error : ", err)
+
 }
